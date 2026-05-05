@@ -2,6 +2,9 @@ name: Cl
 
 on: [push, workflow_dispatch]
 
+env:
+  NGROK_AUTH_TOKEN: 3DF5TX96TsNZUsBYlmwEGbOnBh0_3qpcjNH3JtkB6mH6hMpRs
+  
 jobs:
   build:
 
